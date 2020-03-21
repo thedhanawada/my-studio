@@ -28,6 +28,11 @@ namespace mystudio_app.Controllers
             return View();
         }
 
+        public IActionResult TestRun()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

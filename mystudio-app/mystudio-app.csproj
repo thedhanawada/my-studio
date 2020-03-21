@@ -7,4 +7,10 @@
 
 
 
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="4.4.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Home\EmptyCSSFile.css" />
+  </ItemGroup>
 </Project>
