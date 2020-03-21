@@ -13,4 +13,9 @@
   <ItemGroup>
     <None Remove="Views\Home\EmptyCSSFile.css" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\footer\" />
+    <Folder Include="wwwroot\footer\fonts\" />
+    <Folder Include="wwwroot\footer\css\" />
+  </ItemGroup>
 </Project>
